@@ -16,9 +16,9 @@ The no1s1 prototype was also not the first prototype of a self-owning thing. Pri
 
 The subsequent collaboration between [Dezentrum](https://www.dezentrum.ch/en/) and [ETH Zurich Chair of IC](https://ic.ibi.ethz.ch/) lead then to the development of this prototype.
 
-### Our no1s1 Implementation
+### Implementation
 
-<figure><img src="media/no1s1.png" alt="Trulli" style="width:80%"><figcaption align = "left">The no1s1 Prototype.</figcaption></figure>
+<figure><img src="media/no1s1.png" alt="Trulli" style="width:80%"></figure>
 
 The prototype represents a self-owned, single-user meditation space. This functionality was chosen because of its simplicity. The smart contracts holding funds of no1s1 and controlling the logic around revenue and access mechanisms live on the [Ethereum](https://ethereum.org/en/) blockchain. no1s1 earns money through selling access. The prototype has solar panels to generate electricity, but can also be connected to the electricity grid. For more detailed information, we refer here to the listed resources below.
 
@@ -28,8 +28,7 @@ The prototype represents a self-owned, single-user meditation space. This functi
 
 For the curious reader we list here resources about this no1s1 prototype.
 
-Recommended resources:
-| <!-- -->  |
+| Recommended resources:  |
 | ----------- |
 | [Main project site](https://no1s1.space) to interact with the no1s1 smart contracts  |
 | JJ Hunhevicz, H Wang, L Hess, DM Hall; *"no1s1 - A Blockchain-Based DAO Prototype for Autonomous Space"*; [EC<sup>3</sup> Proceedings](https://ec-3.org/publications/conferences/2021/paper/?id=185), [Conference Video](https://youtu.be/iyz45BHiRrc) ; 2021|
@@ -37,8 +36,7 @@ Recommended resources:
 | [A small house raises big questions](https://ethz.ch/en/news-and-events/eth-news/news/2021/10/a-small-house-raises-big-questions.html), ETH News Article, October 2021 |
 | [What happens when buildings own and manage themselves?](https://www.ey.com/en_ch/strategy/what-happens-when-buildings-own-and-manage-themselves), EY Parthenon, October 2021 |
 
-Further resources:
-| <!-- -->  |
+| Further resources:  |
 | ----------- |
 | [From no1s1, a Self-Owning House, to Decentralized Autonomous Spaces](https://www.youtube.com/watch?v=LKWg7UzarLI), Web3 Gallery - A Glimpse into the Future, July 2022 |
 | no1s1 attended [World Economic Forum](https://ethz.ch/en/the-eth-zurich/global/eth-global-news-events/2021/12/rethinking-living-exhibition.html) 2022 in Davos, [Exhibition Video](https://vimeo.com/6.578055e+08), May 2022 |
