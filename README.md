@@ -51,6 +51,9 @@ This repo contains code for the no1s1 prototype. It is structured into folders r
 
 ```none
 ../no1s1
+├── backend             Code for the backend contained in no1s1.
+│   ├── README          Documentation
+│   └── RaspPi          Python scripts for the RaspberryPi.
 ├── contracts           Code related to the smart contracts of no1s1.
 │   ├── README          Documentation
 │   ├── contracts       Smart contracts
@@ -58,9 +61,6 @@ This repo contains code for the no1s1 prototype. It is structured into folders r
 ├── frontend            Code for the dApp of no1s1.
 │   ├── README          Documentation
 │   └── src             React application
-├── backend             Code for the backend contained in no1s1.
-│   ├── README          Documentation
-│   └── RaspPi          Python scripts for the RaspberryPi.
 ├── media               Pictures and videos on no1s1
 ├── README              Background and resources
 └── LICENSE             MIT License
