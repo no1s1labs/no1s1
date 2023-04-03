@@ -1,6 +1,6 @@
 # no1s1
 
-This repository contains resources and code for the no1s1 prototype and replaces the [old repo](https://github.com/Unawhatitis/no1s1_TI) that will be depreciated. It is managed by [Unawhatitis](https://github.com/Unawhatitis) and [hujens](https://github.com/hujens).
+This repository contains resources and code for the no1s1 prototype and replaces the [old repo](https://github.com/Unawhatitis/no1s1_TI). It is managed by [Unawhatitis](https://github.com/Unawhatitis) and [hujens](https://github.com/hujens).
 
 This prototype implementation started as a research effort between [Dezentrum](https://www.dezentrum.ch/en/) and [ETH Zurich Chair of IC](https://ic.ibi.ethz.ch/). We are now conducting research at the [ETH Zurich CEA lab](https://cea.ibi.ethz.ch/). The prototype is also exhibited or we give expert talks under the coordination of [no1s1 labs](https://www.no1s1labs.org/). If you are interested in collaboration, please reach out to us.
 
@@ -10,7 +10,7 @@ Please note, we are not the only ones working on the no1s1 idea (see also [UZH](
 
 ### Origin
 
-The idea behind no1s1 to use blockchain so things can own and organize themselves was mentioned in several places. Noteworthy is especially the article on [Nature 2.0](https://blog.oceanprotocol.com/nature-2-0-27bdf8238071?gi=d17a83f090a1) by Trent McConaghy.
+The idea behind no1s1 to use blockchain, so things can own and organize themselves, was mentioned in several places. Noteworthy is especially the article on [Nature 2.0](https://blog.oceanprotocol.com/nature-2-0-27bdf8238071?gi=d17a83f090a1) by Trent McConaghy.
 
 The no1s1 prototype was also not the first prototype of a self-owning thing. Primavera di Filippi built the [Plantoid](https://www.plantoid.org/), and an earlier prototype by Dezentrum was [SattelETH](https://www.dezentrum.ch/en/case-studies/ein-autonomer-satellit-auf-weltreise). But no1s1 was the first prototype that applied this idea to the built environment, the name and idea stemming from the think tank Dezentrum: [no1s1 Whitepaper](https://github.com/no1s1/whitepaper).
 
@@ -22,7 +22,7 @@ The subsequent collaboration between [Dezentrum](https://www.dezentrum.ch/en/) a
 
 The prototype represents a self-owned, single-user meditation space. This functionality was chosen because of its simplicity. The smart contracts holding funds of no1s1 and controlling the logic around revenue and access mechanisms live on the [Ethereum](https://ethereum.org/en/) blockchain. no1s1 earns money through selling access. The prototype has solar panels to generate electricity, but can also be connected to the electricity grid. For more detailed information, we refer here to the listed resources below.
 
-*Please note:* The project is under active development and therefore the functionality is consistently expanded. This is also why some of the code folders hold multiple implementation versions. Please read the documentation inside the code folders for more information.
+*Please note:* The project is under active development and therefore the functionality is consistently expanded. Please read the documentation inside the code folders for more information.
 
 ### Resources
 
@@ -47,7 +47,7 @@ For the curious reader we list here resources about this no1s1 prototype.
 
 ## Code
 
-This repo contains code for the no1s1 prototype. It is structured into folders containing code related to the different technical aspects of the prototype. Please read the README files inside the respective folders for further documentation.
+This repo contains code for the no1s1 prototype. It is structured into folders related to the different technical aspects of the prototype. Please read the README files inside the folders for further documentation.
 
 ```none
 ../no1s1
