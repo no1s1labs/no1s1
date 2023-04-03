@@ -58,7 +58,7 @@ This repo contains code for the no1s1 prototype. It is structured into folders r
 ├── frontend            Code for the dApp of no1s1.
 │   ├── README          Documentation
 │   └── src             React application
-├── hardware            Code for the hardware contained in no1s1.
+├── backend             Code for the backend contained in no1s1.
 │   ├── README          Documentation
 │   └── RaspPi          Python scripts for the RaspberryPi.
 ├── media               Pictures and videos on no1s1
