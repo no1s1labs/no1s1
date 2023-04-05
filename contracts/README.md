@@ -1,6 +1,6 @@
 # no1s1 Smart Contracts
 
-This repository contains the smart contracts used for the no1s1 prototype. The different contracts are described below. The newest contract version used for the prototype is V2.
+This repository contains the smart contracts for the no1s1 prototype. The different contracts are described below. The newest contract version currently used for the prototype is V2.
 
 <!-- Describe where live contracts are deployed. -->
 
@@ -8,7 +8,7 @@ This repository contains the smart contracts used for the no1s1 prototype. The d
 
 The [no1s1App_V1.sol](./contracts/no1s1App_V1.sol) and [no1s1Data_V1.sol](./contracts/no1s1Data_V1.sol) contracts together provided the functionality of the initial protoype. 
 
-They also make use of the OpenZeppelin [SafeMath.sol](./node_modules/@openzeppelin/contracts/utils/math/SafeMath.sol) contract to protect against overflow.
+They also make use of the OpenZeppelin [SafeMath.sol](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/math/SafeMath.sol) contract to protect against overflow.
 
 <!-- Describe functionality -->
 
@@ -24,9 +24,9 @@ For exhibition at the World Economic Forum 2022, we used a reduced version of th
 
 ## Getting started
 
-### Develop on Local Network (Ganache)
+### Develop and Test with Local Network (Ganache)
 
-Install [Truffle Suite](https://truffleframework.com/) and [node.js](https://nodejs.org/en/) and [Metamask](https://metamask.io/).
+Install [Truffle Suite](https://truffleframework.com/), [node.js](https://nodejs.org/en/) and [Metamask](https://metamask.io/).
 
 Clone this repository and change to the project directory. Install all prerequisites, e.g. the [Openzeppelin Contracts](https://www.openzeppelin.com/contracts) with:
 
