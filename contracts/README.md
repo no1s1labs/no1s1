@@ -24,7 +24,7 @@ For exhibition at the World Economic Forum 2022, we used a reduced version of th
 
 ## Getting started
 
-### Develop and Test with Local Network (Ganache)
+### Option 1: Develop and Test with Truffle/Ganache and Local Network
 
 Install [Truffle Suite](https://truffleframework.com/), [node.js](https://nodejs.org/en/) and [Metamask](https://metamask.io/).
 
@@ -57,6 +57,6 @@ truffle test
 
 Point Metamask to your localhost network and import the needed private keys. You are ready to go!
 
-### Develop and Test with Remix
+### Option 2: Develop and Test with Remix and Local Network
 
 Instead of using Truffle and Ganache, [Remix IDE](https://remix.ethereum.org/) is a nice way for fast contract testing and development. It automatically provides a GUI to interact with the smart contract functions. Just import the .sol files and compile and deploy to your preffered network.
