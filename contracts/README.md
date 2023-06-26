@@ -6,19 +6,21 @@ This repository contains the smart contracts for the no1s1 prototype. The differ
 
 ## no1s1 Contracts V1
 
-The [no1s1App_V1.sol](./contracts/no1s1App_V1.sol) and [no1s1Data_V1.sol](./contracts/no1s1Data_V1.sol) contracts together provided the functionality of the initial protoype. 
+The [no1s1App_V1.sol](./contracts/no1s1App_V1.sol) and [no1s1Data_V1.sol](./contracts/no1s1Data_V1.sol) contracts together provided the functionality of the initial protoype. They make use of the OpenZeppelin [SafeMath.sol](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/math/SafeMath.sol) contract to protect against overflow.
 
-They also make use of the OpenZeppelin [SafeMath.sol](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/math/SafeMath.sol) contract to protect against overflow.
+The two contracts work together with the [rpi_V1](../backend/rpi_WEF) Raspberry Pi scripts and the [no1s1_V1](../frontend/no1s1_V1) frontend.
 
 <!-- Describe functionality -->
 
 ## no1s1 Contract WEF
 
-For exhibition at the World Economic Forum 2022, we used a reduced version of the above contracts for simplified demonstration of the protoype: [no1s1WEF.sol](.//contracts/no1s1WEF.sol).
+For exhibition at the World Economic Forum 2022, we used a reduced version of the V1 contracts for simplified demonstration of the protoype: [no1s1WEF.sol](.//contracts/no1s1WEF.sol). In comparison to the V1 contracts, it does not run through all the access and exit checks, but just triggers a timer of 1min once the house receives the payment (see [rpi_WEF](../backend/rpi_WEF)).
 
 <!-- Describe functionality -->
 
 ## no1s1 Contracts V2
+
+Newest versions of no1s1 smart contracts. Work in progress.
 
 <!-- Describe newest contracts -->
 
