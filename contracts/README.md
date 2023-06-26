@@ -1,32 +1,34 @@
 # no1s1 Smart Contracts
 
-This repository contains the smart contracts used for the no1s1 prototype. The different contracts are described below. The newest contract version used for the prototype is V2.
+This repository contains the smart contracts for the no1s1 prototype. The different contracts are described below. The newest contract version currently used for the prototype is V2.
 
 <!-- Describe where live contracts are deployed. -->
 
 ## no1s1 Contracts V1
 
-The [no1s1App_V1.sol](./contracts/no1s1App_V1.sol) and [no1s1Data_V1.sol](./contracts/no1s1Data_V1.sol) contracts together provided the functionality of the initial protoype. 
+The [no1s1App_V1.sol](./contracts/no1s1App_V1.sol) and [no1s1Data_V1.sol](./contracts/no1s1Data_V1.sol) contracts together provided the functionality of the initial protoype. They make use of the OpenZeppelin [SafeMath.sol](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/math/SafeMath.sol) contract to protect against overflow.
 
-They also make use of the OpenZeppelin [SafeMath.sol](./node_modules/@openzeppelin/contracts/utils/math/SafeMath.sol) contract to protect against overflow.
+The two contracts work together with the [rpi_V1](../backend/rpi_WEF) Raspberry Pi scripts and the [no1s1_V1](../frontend/no1s1_V1) frontend.
 
 <!-- Describe functionality -->
 
 ## no1s1 Contract WEF
 
-For exhibition at the World Economic Forum 2022, we used a reduced version of the above contracts for simplified demonstration of the protoype: [no1s1WEF.sol](.//contracts/no1s1WEF.sol).
+For exhibition at the World Economic Forum 2022, we used a reduced version of the V1 contracts for simplified demonstration of the protoype: [no1s1WEF.sol](.//contracts/no1s1WEF.sol). In comparison to the V1 contracts, it does not run through all the access and exit checks, but just triggers a timer of 1min once the house receives the payment (see [rpi_WEF](../backend/rpi_WEF)).
 
 <!-- Describe functionality -->
 
 ## no1s1 Contracts V2
 
+Newest versions of no1s1 smart contracts. Work in progress.
+
 <!-- Describe newest contracts -->
 
 ## Getting started
 
-### Develop on Local Network (Ganache)
+### Option 1: Develop and Test with Truffle/Ganache and Local Network
 
-Install [Truffle Suite](https://truffleframework.com/) and [node.js](https://nodejs.org/en/) and [Metamask](https://metamask.io/).
+Install [Truffle Suite](https://truffleframework.com/), [node.js](https://nodejs.org/en/) and [Metamask](https://metamask.io/).
 
 Clone this repository and change to the project directory. Install all prerequisites, e.g. the [Openzeppelin Contracts](https://www.openzeppelin.com/contracts) with:
 
@@ -57,6 +59,6 @@ truffle test
 
 Point Metamask to your localhost network and import the needed private keys. You are ready to go!
 
-### Develop and Test with Remix
+### Option 2: Develop and Test with Remix and Local Network
 
 Instead of using Truffle and Ganache, [Remix IDE](https://remix.ethereum.org/) is a nice way for fast contract testing and development. It automatically provides a GUI to interact with the smart contract functions. Just import the .sol files and compile and deploy to your preffered network.
