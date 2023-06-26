@@ -4,8 +4,6 @@ This repository contains resources and code for the no1s1 prototype and replaces
 
 This prototype implementation started as a research effort between [Dezentrum](https://www.dezentrum.ch/en/) and [ETH Zurich Chair of IC](https://ic.ibi.ethz.ch/). We are now conducting research at the [ETH Zurich CEA lab](https://cea.ibi.ethz.ch/). The prototype is also exhibited or we give expert talks under the coordination of [no1s1 labs](https://www.no1s1labs.org/). If you are interested in collaboration, please reach out to us.
 
-Please note, we are not the only ones working on the no1s1 idea (see also [UZH](https://www.ifi.uzh.ch/en/bdlt/Projects/No1s1--A-house-owned-by-no-one-but-itself.html) or [DIZH](https://dizh.ch/en/2022/01/03/no1s1-2/)), but we are the driving force behind this prototype implementation.
-
 ## The no1s1 Prototype
 
 ### Origin
@@ -30,7 +28,7 @@ For the curious reader we list here resources about this no1s1 prototype.
 
 | Recommended resources:  |
 | ----------- |
-| [Main project site](https://no1s1.space) to interact with the no1s1 smart contracts  |
+| [no1s1.space](https://no1s1.space) is the main project site to interact with the no1s1 smart contracts  |
 | JJ Hunhevicz, H Wang, L Hess, DM Hall; *"no1s1 - A Blockchain-Based DAO Prototype for Autonomous Space"*; [EC<sup>3</sup> Proceedings](https://ec-3.org/publications/conferences/2021/paper/?id=185), [Conference Video](https://youtu.be/iyz45BHiRrc) ; 2021|
 | H Wang, J Hunhevicz, DM Hall; *"What if properties are owned by no one or everyone? Foundations of blockchain enabled engineered ownership"*; [EC<sup>3</sup> Proceedings](http://www.doi.org/10.35490/EC3.2022.213), [Conference Video](https://www.youtube.com/watch?v=JFbBB8GSObI) ; 2022|
 | [A small house raises big questions](https://ethz.ch/en/news-and-events/eth-news/news/2021/10/a-small-house-raises-big-questions.html), ETH News Article, October 2021 |
@@ -51,16 +49,14 @@ This repo contains code for the no1s1 prototype. It is structured into folders r
 
 ```none
 ../no1s1
-├── backend             Code for the backend contained in no1s1.
-│   ├── README          Documentation
-│   └── RaspPi          Python scripts for the RaspberryPi.
+├── backend             Python scripts for the RaspberryPi of no1s1.
+│   └── README          Documentation
 ├── contracts           Code related to the smart contracts of no1s1.
 │   ├── README          Documentation
 │   ├── contracts       Smart contracts
 │   └── test            Test cases
 ├── frontend            Code for the dApp of no1s1.
-│   ├── README          Documentation
-│   └── src             React application
+│   └── README          Documentation
 ├── media               Pictures and videos on no1s1
 ├── README              Background and resources
 └── LICENSE             MIT License
