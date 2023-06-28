@@ -45,6 +45,12 @@ For the curious reader we list here resources about this no1s1 prototype.
 | [ETH präsentiert Haus, das sich selbst besitzt und verwaltet](https://www.swissinfo.ch/ger/eth-praesentiert-haus--das-sich-selbst-besitzt-und-verwaltet/47064260), swissinfo.ch, October 2021 |
 | [Unter dem Namen «no1s1» – ETH präsentiert Haus, das sich selbst besitzt und verwaltet](https://www.watson.ch/wissen/technik/352728172-eth-praesentiert-haus-das-sich-selbst-besitzt-und-verwaltet), Watson, October 2021 |
 
+### Technical System and Human/Machine Interaction
+
+The figure below illustrates the main technical parts of the no1s1 prototype and their interactions (Source: Slightly adapted from [Hunhevicz et al., 2021](https://ec-3.org/publications/conferences/2021/paper/?id=185)).
+
+<figure><img src="media/no1s1_interaction.jpg" alt="Trulli" style="width:80%"></figure>
+
 ## Code
 
 This repo contains code for the no1s1 prototype. It is organized into folders that cover the above introduced technical aspects of the prototype. Please read the README files inside the folders for further documentation.
