@@ -10,6 +10,6 @@ The [rpi_V1](./rpi_V1) scripts provide the functionality of the initial version 
 
 For the exhibition at the World Economic Forum 2022, we used a prototype version with reduced functionality for a simplified demonstration: [rpi_WEF](./rpi_WEF). These scripts are designed to work with the smart contract [no1s1WEF.sol](../contracts/contracts/no1s1WEF.sol).
 
-## no1s1 RPI V2
+<!-- ## no1s1 RPI V2
 
-[rpi_V2](./rpi_V2) contains the latest version of the no1s1 scripts. Work in progress.
+[rpi_V2](./rpi_V2) contains the latest version of the no1s1 scripts. Work in progress. -->
