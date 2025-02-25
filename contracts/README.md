@@ -10,21 +10,29 @@ The contracts [no1s1App_V1.sol](./contracts/no1s1App_V1.sol) and [no1s1Data_V1.s
 
 The two contracts work together with the [rpi_V1](../backend/rpi_WEF) Raspberry Pi scripts and the [no1s1_V1](../frontend/no1s1_V1) frontend.
 
+The following figure details the interaction between the different smart contracts, smart contract functions, and the other technical componenents:
+
+<figure><img src="../media/appendixV1.png" alt="Trulli" style="width:80%"></figure>
+
 <!-- Describe functionality -->
 
 ## no1s1 Contract WEF
 
 For the exhibition at the World Economic Forum 2022, we used a reduced version of the V1 contracts for a simplified demonstration of the prototype: [no1s1WEF.sol](.//contracts/no1s1WEF.sol). Unlike the V1 contracts, it does not go through all the access and exit checks, but only triggers a 1min timer once the house receives the payment (see [rpi_WEF](../backend/rpi_WEF)).
 
+The following figure details the interaction between the smart contract functions and the other technical componenents:
+
+<figure><img src="../media/appendixWEF.png" alt="Trulli" style="width:80%"></figure>
+
 <!-- Describe functionality -->
 
-## no1s1 Contracts V2
+<!-- ## no1s1 Contracts V2
 
 Latest version of no1s1 smart contracts. Work in progress.
 
 <!-- Describe newest contracts -->
 
-## Getting started
+## Getting started -->
 
 ### Option 1: Develop and Test with Truffle/Ganache and Local Network
 
