@@ -12,7 +12,7 @@ The two contracts work together with the [rpi_V1](../backend/rpi_WEF) Raspberry 
 
 The following figure details the interaction between the different smart contracts, smart contract functions, and the other technical componenents:
 
-<figure><img src="../media/appendixV1.png" alt="Trulli" style="width:80%"></figure>
+<figure><img src="../media/appendixV1.jpg" alt="Trulli" style="width:80%"></figure>
 
 <!-- Describe functionality -->
 
@@ -22,7 +22,7 @@ For the exhibition at the World Economic Forum 2022, we used a reduced version o
 
 The following figure details the interaction between the smart contract functions and the other technical componenents:
 
-<figure><img src="../media/appendixWEF.png" alt="Trulli" style="width:80%"></figure>
+<figure><img src="../media/appendixWEF.jpg" alt="Trulli" style="width:80%"></figure>
 
 <!-- Describe functionality -->
 
