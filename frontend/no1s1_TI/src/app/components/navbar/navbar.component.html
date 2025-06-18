@@ -1,0 +1,53 @@
+<nav class="navbar navbar-expand-lg bg-danger fixed-top navbar-transparent" color-on-scroll="500">
+    <div class="container">
+        <div class="navbar-translate">
+            <a class="navbar-brand" [routerLink]="['/index']" placement="bottom"> 
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" (click)="sidebarToggle()">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" data-nav-image="assets/img/blurred-image-1.jpg" data-color="orange">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a [routerLink]="['/index']" class="nav-link">
+                    <i class="now-ui-icons objects_globe"></i>
+                    <p>HOME</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                  <a [routerLink]="['/aboutme']" class="nav-link">
+                      <i class="now-ui-icons design_app"></i>
+                      <p>ABOUT ME</p>
+                  </a>
+              </li>
+              <li class="nav-item">
+                <a [routerLink]="['/team']" class="nav-link">
+                    <i class="now-ui-icons users_single-02"></i>
+                    <p>TEAM</p>
+                </a>
+              </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['readme']">
+                      <i class="now-ui-icons files_paper"></i>
+                      <p>READ ME</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" [routerLink]="['/dashboard']">
+                    <i class="now-ui-icons education_atom"></i>
+                    <p>Dashboard</p>
+                  </a>
+              </li>
+                <li class="nav-item">
+                    <a [routerLink]="['/registration']" class="nav-link btn btn-neutral">
+                        <i class="now-ui-icons users_single-02"></i>
+                        <p>Registration</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
