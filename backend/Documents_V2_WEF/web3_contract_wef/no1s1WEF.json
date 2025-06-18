@@ -1,0 +1,241 @@
+[
+	{
+		"inputs": [],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"internalType": "bool",
+				"name": "accessGranted",
+				"type": "bool"
+			}
+		],
+		"name": "accessSuceeded",
+		"type": "event"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "bytes32",
+				"name": "_key",
+				"type": "bytes32"
+			}
+		],
+		"name": "buy",
+		"outputs": [],
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "bool",
+				"name": "_doorOpened",
+				"type": "bool"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_actualDuration",
+				"type": "uint256"
+			},
+			{
+				"internalType": "bytes32",
+				"name": "_key",
+				"type": "bytes32"
+			}
+		],
+		"name": "exit",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"anonymous": false,
+		"inputs": [
+			{
+				"indexed": false,
+				"internalType": "uint256",
+				"name": "price",
+				"type": "uint256"
+			},
+			{
+				"indexed": false,
+				"internalType": "uint256",
+				"name": "amountReturned",
+				"type": "uint256"
+			}
+		],
+		"name": "refundSuccessful",
+		"type": "event"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "bool",
+				"name": "mode",
+				"type": "bool"
+			}
+		],
+		"name": "setAccessabilityStatus",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "bool",
+				"name": "mode",
+				"type": "bool"
+			}
+		],
+		"name": "setOccupationStatus",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "bool",
+				"name": "mode",
+				"type": "bool"
+			}
+		],
+		"name": "setOperatingStatus",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"stateMutability": "payable",
+		"type": "fallback"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "bytes32",
+				"name": "_key",
+				"type": "bytes32"
+			}
+		],
+		"name": "checkUserKey",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "user",
+				"type": "address"
+			},
+			{
+				"internalType": "bool",
+				"name": "accessed",
+				"type": "bool"
+			},
+			{
+				"internalType": "uint256",
+				"name": "escrow",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getUsageLog",
+		"outputs": [
+			{
+				"internalType": "uint256[]",
+				"name": "usageTimeLog",
+				"type": "uint256[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "howAmI",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "totalUsers",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "totalDuration",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "myBalance",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "howRichAmI",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "no1s1Balance",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "isOperational",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "UsageTimeLog",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "whoAmI",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "no1s1Address",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
