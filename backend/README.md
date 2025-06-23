@@ -1,6 +1,6 @@
 # no1s1 Raspberry Pi Code
 
-This repository contains the Raspberry Pi scripts for the no1s1 prototype to control the electronics of the prototype according to the smart contract code. There are different versions of the scripts, depending on the smart contracts used.
+This repository contains the Raspberry Pi scripts for the no1s1 prototype controlling the electronics of the prototype in line with the smart contract code. There are different versions of the scripts, depending on the smart contracts used.
 
 ## no1s1 RPI V1
 
