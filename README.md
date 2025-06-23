@@ -1,8 +1,10 @@
 # no1s1
 
-This repository contains resources and code for the no1s1 prototype and replaces the [old repo](https://github.com/Unawhatitis/no1s1_TI). It is maintained by [Unawhatitis](https://github.com/Unawhatitis) and [hujens](https://github.com/hujens).
+This repository contains resources and code for the no1s1 prototype. The research is published [here (Journal Paper)](https://doi.org/10.1016/j.autcon.2025.106309) and [here (Conference Paper)](http://www.doi.org/10.35490/EC3.2021.185). 
 
-This prototype implementation started as a research project between [Dezentrum](https://www.dezentrum.ch/en/case-studies/no1s1) and [ETH Zurich Chair of IC](https://ic.ibi.ethz.ch/).The associated research is published [here (Journal Paper)](https://doi.org/10.1016/j.autcon.2025.106309) and [here (Conference Paper)](http://www.doi.org/10.35490/EC3.2021.185). If you are interested in a collaboration, please contact us.
+This prototype implementation started as a research project between [Dezentrum](https://www.dezentrum.ch/en/case-studies/no1s1) and [ETH Zurich Chair of IC](https://ic.ibi.ethz.ch/).
+
+This repository replaces the [old one](https://github.com/Unawhatitis/no1s1_TI) and is maintained by [Unawhatitis](https://github.com/Unawhatitis) and [hujens](https://github.com/hujens). If you are interested in a collaboration, please contact us.
 
 ## The no1s1 Prototype
 
