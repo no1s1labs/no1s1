@@ -1,8 +1,8 @@
 # no1s1
 
-This repository contains resources and code for the no1s1 prototype and replaces the [old repo](https://github.com/Unawhatitis/no1s1_TI). It is maintained by [Unawhatitis](https://github.com/Unawhatitis) and [hujens](https://github.com/hujens). The main project page [no1s1.space](https://no1s1.space) can be used to interact with no1s1.
+This repository contains resources and code for the no1s1 prototype and replaces the [old repo](https://github.com/Unawhatitis/no1s1_TI). It is maintained by [Unawhatitis](https://github.com/Unawhatitis) and [hujens](https://github.com/hujens).
 
-This prototype implementation started as a research project between [Dezentrum](https://www.dezentrum.ch/en/case-studies/no1s1) and [ETH Zurich Chair of IC](https://ic.ibi.ethz.ch/).The associated research is published [here (Conference Paper)](http://www.doi.org/10.35490/EC3.2021.185) and [here (Journal Paper Preprint)](https://dx.doi.org/10.2139/ssrn.4983047). If you are interested in a collaboration, please contact us.
+This prototype implementation started as a research project between [Dezentrum](https://www.dezentrum.ch/en/case-studies/no1s1) and [ETH Zurich Chair of IC](https://ic.ibi.ethz.ch/).The associated research is published [here (Journal Paper)](https://doi.org/10.1016/j.autcon.2025.106309) and [here (Conference Paper)](http://www.doi.org/10.35490/EC3.2021.185). If you are interested in a collaboration, please contact us.
 
 ## The no1s1 Prototype
 
@@ -32,7 +32,7 @@ For the curious reader we list here resources about this no1s1 prototype.
 | [What happens when buildings own and manage themselves?](https://www.ey.com/en_ch/strategy/what-happens-when-buildings-own-and-manage-themselves), EY Parthenon, October 2021 |
 | JJ Hunhevicz, H Wang, L Hess, DM Hall; *"no1s1 - A Blockchain-Based DAO Prototype for Autonomous Space"*; [EC<sup>3</sup> Proceedings](https://ec-3.org/publications/conferences/2021/paper/?id=185), [Conference Video](https://youtu.be/iyz45BHiRrc) ; 2021|
 | H Wang, J Hunhevicz, DM Hall; *"What if properties are owned by no one or everyone? Foundations of blockchain enabled engineered ownership"*; [EC<sup>3</sup> Proceedings](http://www.doi.org/10.35490/EC3.2022.213), [Conference Video](https://www.youtube.com/watch?v=JFbBB8GSObI) ; 2022|
-| H Wang, J Hunhevicz, DM Hall; *"From Automation to Agency: Exploring Blockchain's Role in Self-Owning Intelligent Buildings Through a Physical Prototype, No1s1"*; [SSRN Preprint](https://dx.doi.org/10.2139/ssrn.4983047); 2024|
+| H Wang, J Hunhevicz, DM Hall; *"From automation to agency: Prototype for self-owning intelligent buildings enabled by blockchain"*; [Automation in Construction](https://doi.org/10.1016/j.autcon.2025.106309); 2025|
 
 | Further resources:  |
 | ----------- |
@@ -60,12 +60,15 @@ This repo contains code for the no1s1 prototype. It is organized into folders th
 ../no1s1
 ├── backend             Python scripts for the RaspberryPi of no1s1.
 │   └── README          Documentation
+│   └── rpi_V1          Back end code for the V1 contract version.
+│   └── rpi_WEF         Back end code for the WEF contract version.
 ├── contracts           Code related to the smart contracts of no1s1.
 │   ├── README          Documentation
-│   ├── contracts       Smart contracts
+│   ├── contracts       Smart contracts for V1 and WEF.
 │   └── test            Test cases
 ├── frontend            Code for the dApp of no1s1.
 │   └── README          Documentation
+│   └── no1s1_V1        Front end code for the V1 contract version.
 ├── media               Pictures and videos on no1s1
 ├── README              Background and resources
 └── LICENSE             MIT License

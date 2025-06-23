@@ -1,6 +1,6 @@
 # no1s1 Frontend
 
-This repository contains the frontend code for the no1s1 prototype, which allows users to interact with the no1s1 smart contracts. There are different versions of the frontend, depending on the smart contracts used. The latest version (currently V1) can be found at [no1s1.space](https://no1s1.space).
+This repository contains the frontend code for the no1s1 prototype, which allows users to interact with the no1s1 smart contracts. The version published here works with the V1 Smart Contracts. It is deployed at [no1s1.space](https://no1s1.space), but the prototype is currently not operational.
 
 ## no1s1 Frontend V1
 
