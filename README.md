@@ -31,7 +31,6 @@ For the curious reader we list here resources about this no1s1 prototype.
 | Recommended resources:  |
 | ----------- |
 | [A small house raises big questions](https://ethz.ch/en/news-and-events/eth-news/news/2021/10/a-small-house-raises-big-questions.html), ETH News Article, October 2021 |
-| [What happens when buildings own and manage themselves?](https://www.ey.com/en_ch/strategy/what-happens-when-buildings-own-and-manage-themselves), EY Parthenon, October 2021 |
 | JJ Hunhevicz, H Wang, L Hess, DM Hall; *"no1s1 - A Blockchain-Based DAO Prototype for Autonomous Space"*; [EC<sup>3</sup> Proceedings](https://ec-3.org/publications/conferences/2021/paper/?id=185), [Conference Video](https://youtu.be/iyz45BHiRrc) ; 2021|
 | H Wang, J Hunhevicz, DM Hall; *"What if properties are owned by no one or everyone? Foundations of blockchain enabled engineered ownership"*; [EC<sup>3</sup> Proceedings](http://www.doi.org/10.35490/EC3.2022.213), [Conference Video](https://www.youtube.com/watch?v=JFbBB8GSObI) ; 2022|
 | H Wang, J Hunhevicz, DM Hall; *"From automation to agency: Prototype for self-owning intelligent buildings enabled by blockchain"*; [Automation in Construction](https://doi.org/10.1016/j.autcon.2025.106309); 2025|
